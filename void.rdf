@@ -9,18 +9,18 @@
     <rdf:Description rdf:about="http://vocab.nerc.ac.uk/collection/P01/current/">
         <rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Graph"/>
         <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/P01/current/" filename="P01.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/" filename="P02.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S01/current/" filename="S01.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S02/current/" filename="S02.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S03/current/" filename="S03.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S04/current/" filename="S04.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S05/current/" filename="S05.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S06/current/" filename="S06.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S07/current/" filename="S07.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S25/current/" filename="S25.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S26/current/" filename="S26.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S27/current/" filename="S27.rdf"/>
-        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S29/current/" filename="S29.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/P01.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/P02.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S01.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S02.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S03.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S04.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S05.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S06.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S07.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S25.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S26.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S27.rdf"/>
+        <void:dataDump rdf:resource="http://www.bco-dmo.org/NERC/S29.rdf"/>
     </rdf:Description>
 </rdf:RDF>
