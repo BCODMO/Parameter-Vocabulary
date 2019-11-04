@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:sd="http://www.w3.org/ns/sparql-service-description#"
+  xmlns:void="http://rdfs.org/ns/void#">
+    <rdf:Description rdf:nodeID="NERC_Parameter_Usage_Vocabulary">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Dataset"/>
+        <sd:namedGraph rdf:resource="http://vocab.nerc.ac.uk/collection/P01/current/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.lternet.edu/">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sparql-service-description#Graph"/>
+        <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/P01/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/P02/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S01/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S02/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S03/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S04/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S05/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S06/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S07/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S25/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S26/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S27/current/"/>
+        <void:dataDump rdf:resource="http://vocab.nerc.ac.uk/collection/S29/current/"/>
+    </rdf:Description>
+</rdf:RDF>
