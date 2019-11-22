@@ -1,0 +1,15 @@
+version: '3'
+services:
+  virtuoso:
+    build: .
+    container_name: virtuoso
+    volumes:
+      - ./data:/data
+      - ./scripts:/scripts
+      - ./logs:/logs
+    ports:
+      - 8890:8890
+      - 8891:1111
+    environment:
+      DBA_PASSWORD: "osprey"
+
