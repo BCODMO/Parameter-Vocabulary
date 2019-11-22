@@ -25,6 +25,8 @@ Starting the docker container for the first time downloads the NERC and BCO-DMO 
 ```
 Now, the Virtuoso container can be stopped and restarted without having to download (and load) the data. For a glimpse at what data is being downloaded, see the `startup.sh` file. 
 
+When the container is fully loaded, you can begin to inspect the data at: `http://localhost:8890`
+
 ### Updating the Data
 
 When the data are first loaded, a two files are written to the `data` directory to tell Virtuoso that the data has been both downloaded and loaded. To download and reload the data, delete the files: `.data_loaded` and `.data_downloaded`. If you prefer to reload the already downloaded data, delete the `.data_loaded` file.
