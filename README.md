@@ -4,6 +4,9 @@
 
 The Dockerfile uses the tenforce/virtuoso container to setup an RDF triplestore pre-populated with NERC Parameter vocabularies P01, P02, and the entire semantic model along with the BCO-DMO Datasets, Parameters and Parameter Vocabulary.
 
+If running as Linux container from a Windows host, will need to explicitly declare that container port redirects to localhost port. Run container via
+`$ docker container run -p 8890:8890 --name pv parameter-vocabulary`
+
 ### First Use
 
 Starting the docker container for the first time downloads the NERC and BCO-DMO RDF data as RDF/XML into the `data/toLoad` directory. This may take up to 15min as some of the data are large. Once the data are downloaded, they are loaded into the triplestore, and Virtuoso starts up. You will know the container is ready when the docker logs print the following lines:
